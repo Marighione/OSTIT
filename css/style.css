@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+
+.logo-navbar-brand {
+    padding-right: 3rem;
+}
+
+.navbar {
+    background-color: #CBEBE2;
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #6C1B89;
+}
+
+.emergencias {
+    color: #6C1B89;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #D9D9E0;
+    height: 5vh;
+
+}
+
+.doc24 {
+    color: #FCFCFC;
+    font-style: italic;
+
+
+}
+
+.imagen-principal {
+    background-image: url(/imágenes/imagen\ principal\ 1\ 1.png);
+    width: 100vh;
+    height: 90vh;
+}
+
+
+.card-title {
+    color: #6C1B89;
+}
+
+.plan1000 {
+    height: 12rem;
+    width: 11rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.tu-cuenta-online {
+    padding-top: 64px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.descarga {
+    background-color: #CBEBE2;
+    height: 12rem;
+    width: 100%;
+}
+
+.mujer-celular {
+    height: 12px;
+    ;
+}
