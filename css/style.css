@@ -26,22 +26,24 @@
     color: #6C1B89;
     font-size: 20px;
     font-weight: bolder;
-    background-color: #D9D9E0;
+    background-color: #d9d9e0be;
     height: 5vh;
 
 }
 
 .doc24 {
-    color: #FCFCFC;
+    color: #fcfcfc;
     font-style: italic;
+    background-color: #6c1b8924;
+   
 
 
 }
 
 .imagen-principal {
     background-image: url(/imágenes/imagen\ principal\ 1\ 1.png);
-    width: 100vh;
-    height: 90vh;
+   background-size: cover;
+   height: 80vh;
 }
 
 
@@ -54,6 +56,8 @@
     width: 11rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left:  10px;
+    border-radius: 16px;
 
 }
 
@@ -76,3 +80,20 @@
     height: 12px;
     ;
 }
+.bi-bi-telephone-fill{
+    color: #6C1B89;
+}
+.titulo-numeros{
+    font-size: larger;
+    font-weight: bolder;
+    color: #6C1B89;
+}
+.subtitulo-numeros{
+    font-weight: bolder;
+}
+.img-tu-cuenta{
+    height: 50vh;
+}
+.tu-cuenta-online{
+    background-color: #CBEBE2;
+    background-size:auto;
