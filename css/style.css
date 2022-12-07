@@ -26,8 +26,9 @@
     color: #6C1B89;
     font-size: 20px;
     font-weight: bolder;
-    background-color: #d9d9e0be;
+  
     height: 5vh;
+    
 
 }
 
@@ -35,17 +36,25 @@
     color: #fcfcfc;
     font-style: italic;
     background-color: #6c1b8924;
-   
-
-
 }
 
-.imagen-principal {
-    background-image: url(/imágenes/imagen\ principal\ 1\ 1.png);
+.doc24-quienes{
+    color: #fcfcfc;
+    font-style: italic;
+    background-color: #6c1b897b;
+}
+
+.imagen-principal-index {
+    background-image: url(/imágenes/imagen\ principal\ index.png);
    background-size: cover;
    height: 80vh;
 }
 
+.imagen-principal-quienes-somos{
+    background-image: url(/imágenes/imagen\ principal\ quienes\ somos.jpg);
+   background-size: cover;
+   height: 80vh;
+}
 
 .card-title {
     color: #6C1B89;
@@ -76,10 +85,6 @@
     width: 100%;
 }
 
-.mujer-celular {
-    height: 12px;
-    ;
-}
 .bi-bi-telephone-fill{
     color: #6C1B89;
 }
@@ -91,9 +96,45 @@
 .subtitulo-numeros{
     font-weight: bolder;
 }
-.img-tu-cuenta{
-    height: 50vh;
-}
+
 .tu-cuenta-online{
     background-color: #CBEBE2;
-    background-size:auto;
+    background-size:contain;}
+
+    .boton{
+        font-size: medium;
+        background-color: #6C1B89;
+        color: #fcfcfc;
+        
+    }
+   
+    h1{
+        color: #6C1B89;
+    }
+    .gestion-tramites{
+        font-size: larger;
+    }
+    .atencion-medica{
+        font-size: larger;
+    }
+    .te-ofrecemos{
+        font-weight: bolder;
+    }
+    h2{
+        color: #007670;
+        font-weight: bolder;
+        
+    }
+    h3{
+        font-size: larger;
+        font-weight: bolder;
+        color:#6C1B89;
+        background-color: #cbebe26d;
+        border-radius: 4px;
+        padding: 3px;
+        margin-left: 3px;
+    }
+    .proposito{
+        font-size: larger;
+        font-style: oblique;
+    }
