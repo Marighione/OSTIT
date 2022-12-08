@@ -7,8 +7,6 @@
     font-family: 'Noto Sans Display', sans-serif;
 }
 
-
-
 .logo-navbar-brand {
     padding-right: 3rem;
 }
@@ -31,70 +29,75 @@
     color: #fcfcfc;
     font-style: italic;
     background-color: #6c1b8924;
-    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
-    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
- 
+    -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
 }
-    
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
 
 
- @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
-
-.doc24-quienes{
+.doc24-quienes {
     color: #fcfcfc;
     font-style: italic;
     background-color: #6c1b897b;
-    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
-    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
 }
 
 .imagen-principal-index {
-    background-image: url(../imágenes/imagen\ principal\ index.png);
-   background-size: cover;
-   height: 80vh;
+    background: url(../imágenes/imagen\ principal\ index.png) center center;
+    background-size: cover;
+    height: 80vh;
 }
 
-.imagen-principal-quienes-somos{
+.imagen-principal-quienes-somos {
     background-image: url(../imágenes/imagen\ principal\ quienes\ somos.jpg);
-   background-size: cover;
-   height: 80vh;
+    background-size: cover;
+    height: 80vh;
 }
 
-.imagen-principal-cartilla{
+.imagen-principal-cartilla {
     background-image: url(../imágenes/imagen\ principal\ cartilla.jpg);
-   background-size: cover;
-   height: 80vh;
-}
-.imagen-principal-planes{
- background-image: url(../imágenes/imagen\ principal\ planes.png);
-   background-size: cover;
-   height: 80vh;
+    background-size: cover;
+    height: 80vh;
 }
 
-.imagen-principal-contacto{
+.imagen-principal-planes {
+    background-image: url(../imágenes/imagen\ principal\ planes.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.imagen-principal-contacto {
     background-image: url(../imágenes/imagen\ principal\ contacto.jpg);
-   background-size: cover;
-   height: 80vh;
+    background-size: cover;
+    height: 80vh;
 }
 
 .card-title {
     color: #6C1B89;
 }
 
-.plan1000 {
+.card-planes {
     height: 12rem;
     width: 11rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left:  10px;
+    padding-left: 10px;
     border-radius: 16px;
-    
-    
 
-}
-
-.tu-cuenta-online {
-    padding-top: 64px;
 }
 
 .cards {
@@ -109,84 +112,98 @@
 }
 
 
-.titulo-numeros{
+.titulo-numeros {
     font-size: larger;
     font-weight: bolder;
     color: #6C1B89;
 }
-.subtitulo-numeros{
+
+.subtitulo-numeros {
     font-weight: bolder;
 }
 
-.tu-cuenta-online{
+.tu-cuenta-online {
     background-color: #CBEBE2;
-    background-size:contain;}
+    background-size: contain;
+}
 
-    .boton{
-        font-size: medium;
-        background-color: #6C1B89;
-        color: #fcfcfc;
-        
-    }
-   
-    h1{
-        color: #6C1B89;
-    }
-    .gestion-tramites{
-        font-size: larger;
-    }
-    .atencion-medica{
-        font-size: larger;
-    }
-    .te-ofrecemos{
-        font-weight: bolder;
-    }
-    h2{
-        color: #007670;
-        font-weight: bolder;
-        
-    }
-    h3{
-        font-size: larger;
-        font-weight: bolder;
-        color:#6C1B89;
-        background-color: #cbebe26d;
-        border-radius: 4px;
-        padding: 3px;
-        margin-left: 3px;
-    }
-    .proposito{
-        font-size: larger;
-        font-style: oblique;
-    }
+.boton {
+    font-size: medium;
+    background-color: #6C1B89;
+    color: #fcfcfc;
 
-   
-  
+}
 
-    
+h1 {
+    color: #6C1B89;
+}
 
-    .card{
-        background-color: #cbebe26b;
-    }
-    .planes:hover{
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 8px;
-        background-color: #cbebe26b;
-    }
+.gestion-tramites {
+    font-size: larger;
+}
 
-    footer {
-        background-color: #cbebe27c;
-    }
-    
-    .p-footer{
-        font-size: smaller;
-    }
-    .copy{
-font-size: smaller;
-font-weight: bolder;
-    }
-    .iconos-redes i {
-        color: #6c1b89cb;
-        font-size: 24px;
-        margin: 8px;
-    }
+.atencion-medica {
+    font-size: larger;
+}
+
+.te-ofrecemos {
+    font-weight: bolder;
+}
+
+h2 {
+    color: #007670;
+    font-weight: bolder;
+
+}
+
+h3 {
+    font-size: larger;
+    font-weight: bolder;
+    color: #6C1B89;
+    background-color: #cbebe26d;
+    border-radius: 4px;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.proposito {
+    font-size: larger;
+    font-style: oblique;
+}
+
+.card {
+    background-color: #cbebe26b;
+}
+
+.planes:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    background-color: #cbebe26b;
+}
+
+footer {
+    background-color: #cbebe27c;
+}
+
+.p-footer {
+    font-size: smaller;
+}
+
+.copy {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.iconos-redes i {
+    color: #6c1b89cb;
+    font-size: 24px;
+    margin: 8px;
+}
+
+h4 {
+    color: #007670;
+}
+
+.form-select {
+    color: #6C1B89;
+}
