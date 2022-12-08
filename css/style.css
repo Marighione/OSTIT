@@ -55,24 +55,24 @@
 }
 
 .imagen-principal-quienes-somos{
-    background-image: url(/imágenes/imagen\ principal\ quienes\ somos.jpg);
+    background-image: url(../imágenes/imagen\ principal\ quienes\ somos.jpg);
    background-size: cover;
    height: 80vh;
 }
 
 .imagen-principal-cartilla{
-    background-image: url(/imágenes/imagen\ principal\ cartilla.jpg);
+    background-image: url(../imágenes/imagen\ principal\ cartilla.jpg);
    background-size: cover;
    height: 80vh;
 }
 .imagen-principal-planes{
- background-image: url(/imágenes/imagen\ principal\ planes.png);
+ background-image: url(../imágenes/imagen\ principal\ planes.png);
    background-size: cover;
    height: 80vh;
 }
 
 .imagen-principal-contacto{
-    background-image: url(/imágenes/imagen\ principal\ contacto.jpg);
+    background-image: url(../imágenes/imagen\ principal\ contacto.jpg);
    background-size: cover;
    height: 80vh;
 }
