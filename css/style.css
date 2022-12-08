@@ -22,26 +22,30 @@
     color: #6C1B89;
 }
 
-.emergencias {
+.emergencia {
     color: #6C1B89;
-    font-size: 20px;
-    font-weight: bolder;
-  
-    height: 5vh;
-    
-
+    font-size: medium;
 }
 
 .doc24 {
     color: #fcfcfc;
     font-style: italic;
     background-color: #6c1b8924;
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+ 
 }
+    
+
+
+ @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
 
 .doc24-quienes{
     color: #fcfcfc;
     font-style: italic;
     background-color: #6c1b897b;
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
 }
 
 .imagen-principal-index {
@@ -52,6 +56,23 @@
 
 .imagen-principal-quienes-somos{
     background-image: url(/imágenes/imagen\ principal\ quienes\ somos.jpg);
+   background-size: cover;
+   height: 80vh;
+}
+
+.imagen-principal-cartilla{
+    background-image: url(/imágenes/imagen\ principal\ cartilla.jpg);
+   background-size: cover;
+   height: 80vh;
+}
+.imagen-principal-planes{
+ background-image: url(/imágenes/imagen\ principal\ planes.png);
+   background-size: cover;
+   height: 80vh;
+}
+
+.imagen-principal-contacto{
+    background-image: url(/imágenes/imagen\ principal\ contacto.jpg);
    background-size: cover;
    height: 80vh;
 }
@@ -67,6 +88,8 @@
     padding-bottom: 10px;
     padding-left:  10px;
     border-radius: 16px;
+    
+    
 
 }
 
@@ -85,9 +108,7 @@
     width: 100%;
 }
 
-.bi-bi-telephone-fill{
-    color: #6C1B89;
-}
+
 .titulo-numeros{
     font-size: larger;
     font-weight: bolder;
@@ -137,4 +158,35 @@
     .proposito{
         font-size: larger;
         font-style: oblique;
+    }
+
+   
+  
+
+    
+
+    .card{
+        background-color: #cbebe26b;
+    }
+    .planes:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        background-color: #cbebe26b;
+    }
+
+    footer {
+        background-color: #cbebe27c;
+    }
+    
+    .p-footer{
+        font-size: smaller;
+    }
+    .copy{
+font-size: smaller;
+font-weight: bolder;
+    }
+    .iconos-redes i {
+        color: #6c1b89cb;
+        font-size: 24px;
+        margin: 8px;
     }
