@@ -1,209 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Noto Sans Display', sans-serif;
-}
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif; }
 
-.logo-navbar-brand {
-    padding-right: 3rem;
-}
-
-.navbar {
-    background-color: #CBEBE2;
-    padding: 1rem;
-}
-
-.nav-link {
-    color: #6C1B89;
-}
+body {
+  background-color: #fcfcfc; }
 
 .emergencia {
-    color: #6C1B89;
-    font-size: medium;
-}
+  color: #6C1B89;
+  font-size: medium; }
 
-.doc24 {
-    color: #fcfcfc;
-    font-style: italic;
-    background-color: #6c1b8924;
-    -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
-    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
-}
+.logo-navbar-brand {
+  padding-right: 3rem; }
+
+.navbar {
+  background-color: #CBEBE2;
+  padding: 1rem; }
+
+.nav-link {
+  color: #6C1B89; }
+
+.hero-texto {
+  color: #fcfcfc;
+  font-style: italic;
+  background-color: #6c1b897b;
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes scale-in-center {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 1
-    }
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1
-    }
-}
+.hero-imagen-index {
+  background: url(../imágenes/imagen-principal-index.png);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; }
 
+.hero-imagen-quienes-somos {
+  background-image: url(../imágenes/imagen-principal-quienes-somos.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; }
 
-.doc24-quienes {
-    color: #fcfcfc;
-    font-style: italic;
-    background-color: #6c1b897b;
-    -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
-    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
-}
+.hero-imagen-cartilla {
+  background-image: url(../imágenes/imagen-principal-cartilla.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; }
 
-.imagen-principal-index {
-    background: url(../imágenes/imagen\ principal\ index.png) center center;
-    background-size: cover;
-    height: 80vh;
-}
+.hero-imagen-planes {
+  background-image: url(../imágenes/imagen-principal-planes.png);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; }
 
-.imagen-principal-quienes-somos {
-    background-image: url(../imágenes/imagen\ principal\ quienes\ somos.jpg);
-    background-size: cover;
-    height: 80vh;
-}
-
-.imagen-principal-cartilla {
-    background-image: url(../imágenes/imagen\ principal\ cartilla.jpg);
-    background-size: cover;
-    height: 80vh;
-}
-
-.imagen-principal-planes {
-    background-image: url(../imágenes/imagen\ principal\ planes.png);
-    background-size: cover;
-    height: 80vh;
-}
-
-.imagen-principal-contacto {
-    background-image: url(../imágenes/imagen\ principal\ contacto.jpg);
-    background-size: cover;
-    height: 80vh;
-}
-
-.card-title {
-    color: #6C1B89;
-}
-
-.card-planes {
-    height: 12rem;
-    width: 11rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-radius: 16px;
-
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.descarga {
-    background-color: #CBEBE2;
-    height: 12rem;
-    width: 100%;
-}
-
-
-.titulo-numeros {
-    font-size: larger;
-    font-weight: bolder;
-    color: #6C1B89;
-}
-
-.subtitulo-numeros {
-    font-weight: bolder;
-}
-
-.tu-cuenta-online {
-    background-color: #CBEBE2;
-    background-size: contain;
-}
-
-.boton {
-    font-size: medium;
-    background-color: #6C1B89;
-    color: #fcfcfc;
-
-}
-
-h1 {
-    color: #6C1B89;
-}
-
-.gestion-tramites {
-    font-size: larger;
-}
-
-.atencion-medica {
-    font-size: larger;
-}
-
-.te-ofrecemos {
-    font-weight: bolder;
-}
-
-h2 {
-    color: #007670;
-    font-weight: bolder;
-
-}
-
-h3 {
-    font-size: larger;
-    font-weight: bolder;
-    color: #6C1B89;
-    background-color: #cbebe26d;
-    border-radius: 4px;
-    padding: 3px;
-    margin-left: 3px;
-}
-
-.proposito {
-    font-size: larger;
-    font-style: oblique;
-}
-
-.card {
-    background-color: #cbebe26b;
-}
-
-.planes:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 8px;
-    background-color: #cbebe26b;
-}
-
-footer {
-    background-color: #cbebe27c;
-}
-
-.p-footer {
-    font-size: smaller;
-}
-
-.copy {
-    font-size: smaller;
-    font-weight: bolder;
-}
-
-.iconos-redes i {
-    color: #6c1b89cb;
-    font-size: 24px;
-    margin: 8px;
-}
-
-h4 {
-    color: #007670;
-}
-
-.form-select {
-    color: #6C1B89;
-}
+.hero-imagen-contacto {
+  background-image: url(../imágenes/imagen-principal-contacto.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; }

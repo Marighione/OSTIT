@@ -1,0 +1,59 @@
+.hero-texto {
+    color: #fcfcfc;
+    font-style: italic;
+    background-color: #6c1b897b;
+    -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
+    
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+
+.hero-imagen-index {
+    background: url(../imágenes/imagen-principal-index.png);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+.hero-imagen-quienes-somos {
+    background-image: url(../imágenes/imagen-principal-quienes-somos.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.hero-imagen-cartilla {
+    background-image: url(../imágenes/imagen-principal-cartilla.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.hero-imagen-planes {
+    background-image: url(../imágenes/imagen-principal-planes.png);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.hero-imagen-contacto {
+    background-image: url(../imágenes/imagen-principal-contacto.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+
+}
+
