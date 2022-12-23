@@ -9,6 +9,25 @@ body{
 
 }
 .emergencia {
-    color: #6C1B89;
+    color: $violeta;
     font-size: medium;
+}
+
+footer {
+    background-color: #cbebe27c;
+}
+
+.p-footer {
+    font-size: smaller;
+}
+
+.copy {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.iconos-redes i {
+    color: #6c1b89cb;
+    font-size: 24px;
+    margin: 8px;
 }

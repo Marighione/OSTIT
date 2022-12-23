@@ -1,53 +1,5 @@
 
 
-.card-title {
-    color: #6C1B89;
-}
-
-.card-planes {
-    height: 12rem;
-    width: 11rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-radius: 16px;
-
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.descarga {
-    background-color: #CBEBE2;
-    height: 12rem;
-    width: 100%;
-}
-
-
-.titulo-numeros {
-    font-size: larger;
-    font-weight: bolder;
-    color: #6C1B89;
-}
-
-.subtitulo-numeros {
-    font-weight: bolder;
-}
-
-.tu-cuenta-online {
-    background-color: #CBEBE2;
-    background-size: contain;
-}
-
-.boton {
-    font-size: medium;
-    background-color: #6C1B89;
-    color: #fcfcfc;
-
-}
-
 h1 {
     color: #6C1B89;
 }
@@ -70,54 +22,7 @@ h2 {
 
 }
 
-h3 {
-    font-size: larger;
-    font-weight: bolder;
-    color: #6C1B89;
-    background-color: #cbebe26d;
-    border-radius: 4px;
-    padding: 3px;
-    margin-left: 3px;
-}
-
-.proposito {
-    font-size: larger;
-    font-style: oblique;
-}
-
-.card {
-    background-color: #cbebe26b;
-}
-
-.planes:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 8px;
-    background-color: #cbebe26b;
-}
-
-footer {
-    background-color: #cbebe27c;
-}
-
-.p-footer {
-    font-size: smaller;
-}
-
-.copy {
-    font-size: smaller;
-    font-weight: bolder;
-}
-
-.iconos-redes i {
-    color: #6c1b89cb;
-    font-size: 24px;
-    margin: 8px;
-}
-
 h4 {
     color: #007670;
 }
 
-.form-select {
-    color: #6C1B89;
-}

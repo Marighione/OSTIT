@@ -1,0 +1,55 @@
+.card-title {
+    color: $violeta;
+}
+
+.card-planes {
+    height: 12rem;
+    width: 11rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 16px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.descarga {
+    background-color: #CBEBE2;
+    height: 12rem;
+    width: 100%;
+}
+
+
+.titulo-numeros {
+    font-size: larger;
+    font-weight: bolder;
+    color: #6C1B89;
+}
+
+.subtitulo-numeros {
+    font-weight: bolder;
+}
+
+.tu-cuenta-online {
+    background-color: #CBEBE2;
+    background-size: contain;
+}
+
+.boton {
+    font-size: medium;
+    background-color: #6C1B89;
+    color: #fcfcfc;
+
+}
+.planes:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    background-color: #cbebe26b;
+}
+.card {
+    background-color: #cbebe26b;
+}
