@@ -1,5 +1,6 @@
+/* Estilo del texto del Hero */
 .hero-texto {
-    color: #fcfcfc;
+    color: $bgBody;
     font-style: italic;
     background-color: #6c1b897b;
     -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
@@ -7,6 +8,7 @@
     
 }
 
+/* Animación del texto del Hero */
 @-webkit-keyframes scale-in-center {
     0% {
         -webkit-transform: scale(0);
@@ -21,13 +23,15 @@
     }
 }
 
-
+/* Hero Página de inicio */
 .hero-imagen-index {
-    background: url(../imágenes/imagen-principal-index.png);
+    background: url(../imágenes/imagen-principal-index.jpg);
     background-size: cover;
     background-position: center center;
     height: 80vh;
 }
+
+/* Hero Página Quiénes somos */
 .hero-imagen-quienes-somos {
     background-image: url(../imágenes/imagen-principal-quienes-somos.jpg);
     background-size: cover;
@@ -35,6 +39,7 @@
     height: 80vh;
 }
 
+/* Hero Página de Cartilla */
 .hero-imagen-cartilla {
     background-image: url(../imágenes/imagen-principal-cartilla.jpg);
     background-size: cover;
@@ -42,13 +47,15 @@
     height: 80vh;
 }
 
+/* Hero Página de Planes */
 .hero-imagen-planes {
-    background-image: url(../imágenes/imagen-principal-planes.png);
+    background-image: url(../imágenes/imagen-principal-planes.jpg);
     background-size: cover;
     background-position: center center;
     height: 80vh;
 }
 
+/* Hero Página de Contacto */
 .hero-imagen-contacto {
     background-image: url(../imágenes/imagen-principal-contacto.jpg);
     background-size: cover;

@@ -1,55 +1,85 @@
+
+/* Titulo cards de Planes */
 .card-title {
-    color: $violeta;
+    color: $verde;
+    font-weight: bold;
 }
 
-.card-planes {
-    height: 12rem;
-    width: 11rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-radius: 16px;
-
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.descarga {
-    background-color: #CBEBE2;
-    height: 12rem;
-    width: 100%;
-}
-
-
-.titulo-numeros {
-    font-size: larger;
-    font-weight: bolder;
-    color: #6C1B89;
-}
-
-.subtitulo-numeros {
-    font-weight: bolder;
-}
-
-.tu-cuenta-online {
-    background-color: #CBEBE2;
-    background-size: contain;
-}
-
-.boton {
-    font-size: medium;
-    background-color: #6C1B89;
-    color: #fcfcfc;
-
-}
+/* Animación cards de Planes */
 .planes:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
     border-radius: 8px;
-    background-color: #cbebe26b;
 }
-.card {
-    background-color: #cbebe26b;
+
+/* Numeros teléfonicos importantes */
+.numeros-inicio {
+    background-color: #d9d9e058;
+    border-radius: 32px;
+
+    &__index {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    &__titulo {
+        font-size: larger;
+        font-weight: bolder;
+        color: #6C1B89;
+    }
+
+    &__subtitulo {
+        font-weight: bolder;
+    }
 }
+
+/* Apartado Tu cuenta online */
+.tu-cuenta-online {
+    background-color: #cbebe2b4;
+    background-size: contain;
+
+    &__titulo {
+        color: $violeta;
+        font-size: xx-large;
+        font-weight: bolder;
+        background: none;
+    }
+
+    &__gestion-tramites {
+        font-size: large;
+    }
+}
+
+/* Apartado DOC.24 */
+.doc-24 {
+
+    &__titulo {
+        color: $verde;
+        font-size: xx-large;
+        font-weight: bolder;
+        background: none;
+    }
+
+    &__atencion-medica {
+        font-size: large;
+    }
+
+    &__te-ofrecemos {
+        font-weight: bolder;
+    }
+}
+
+/* Media querie de Numeros de teléfono importantes */
+@media screen and (max-width: 767px){
+    .numeros-inicio__index{
+        font-size:large;
+        color: $violeta;
+        font-weight: bolder;
+    }
+    .numeros-inicio__titulo{
+        color: $primario;
+        font-weight: lighter;
+    }
+
+}
+
+

@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OSTIT</title>
+    <title>OSTIT - Cartilla</title>
+    <meta name="description" content="Descubrí lo que OSTIT tiene para ofrecerte">
+    <meta name="keywords" content="Obra social, Medicina, Prepaga, Cobertura medica, Salud, Plan médico, Cartilla ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../imágenes/favicon.ico"/>
     <script src="https://kit.fontawesome.com/f6ca682562.js" crossorigin="anonymous"></script>
 
 </head>
@@ -16,9 +19,9 @@
 
 
     <header>
-
+        <!-- Logo + nav -->
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="logo-navbar-brand" href="#"><img src="../imágenes/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +55,7 @@
 
     </header>
 
-
+    <!-- Numero de emergencias -->
     <section class="container text-end">
         <div class="emergencia fw-bold pt-2">
             <p>EMERGENCIAS Y URGENCIAS 0800-5556790</p>
@@ -61,13 +64,14 @@
 
     <main>
 
-
+        <!-- Imágen principal -->
         <section class="hero-imagen-cartilla d-flex justify-content-start align-items-center">
             <h1 class="hero-texto pb-2 px-5 rounded-end">Más de 30.000 profesionales para acompañarte</h1>
         </section>
 
+        <!-- Radio buttons "selección Cartilla, Farmacias o Guardias" -->
         <section class="container pt-5">
-            <h1>Cartilla</h1>
+            <h2>Cartilla</h2>
             <div class="row pt-5">
                 <div class="col md-4">
                     <div class="form-check form-check-inline">
@@ -103,9 +107,9 @@
 
 
 
-
+        <!-- Radio buttons "Cuál es tu Plan" -->
         <section class="container pt-5">
-            <h4>¿Cuál es tu plan?</h4>
+            <h3 class="h3-cartilla">¿Cuál es tu plan?</h3>
             <div class="row pt-3">
 
                 <div class="col-md-3">
@@ -142,9 +146,9 @@
             </div>
         </section>
 
-
+        <!-- Radio buttons "Buscar por" -->
         <section class="container pt-5">
-            <h4>Buscar por</h4>
+            <h3 class="h3-cartilla">Buscar por</h3>
             <div class="row pt-3">
 
                 <div class="col-md-3">
@@ -166,12 +170,12 @@
             </div>
         </section>
 
-
+        <!-- Sección dropdowns para selección de especialista -->
         <section class="container pt-4">
             <div class="row pt-6">
 
                 <div class="col-md-6 pb-5">
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select mb-4 " aria-label="Primary select example">
                         <option selected>Seleccioná el servicio</option>
                         <option value="1">Especialidades médicas</option>
                         <option value="2">Odontología</option>
@@ -199,7 +203,7 @@
 
 
                 <div class="col-md-6">
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select mb-4" aria-label="Default select example">
                         <option selected>Seleccioná la especialidad</option>
                         <option value="1"> Cardiología</option>
                         <option value="2"> Cardiología infantil</option>
@@ -244,28 +248,19 @@
         </section>
 
 
-
-
-
-
-
-
-
-
-
-
-        <footer class="container-fluid pt-3 text-center">
+        <!-- Footer -->
+        <footer class="footer__body container-fluid pt-5 text-center">
             <div class="row">
                 <div class="col-md 12">
-                    <h4 class="text-center"> Seguinos en las redes</h4>
-                    <div class="iconos-redes pb-2">
+                    <h5 class="text-center"> Seguinos en las redes</h5>
+                    <div class="footer__iconos-redes pb-2">
                         <i class="fa-brands fa-square-facebook"></i>
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-square-twitter"></i>
                         <i class="fa-brands fa-square-instagram"></i>
                     </div>
                 </div>
-                <div class="p-footer">
+                <div class="footer__p">
                     <p> Superintendencia de Servicios de Salud</p>
                     <p> | 0800-222 SALUD (72583) |sssalud.gob.ar | </p>
                     <p>Registro Nacional de Entidades de Medicina Prepaga 1155</p>
@@ -273,7 +268,7 @@
                     </p>
                 </div>
 
-                <p class="copy container pt-1 text-center">
+                <p class="footer__copy container pt-1 text-center">
                     COPYRIGHT 2022 - Obra social de Trabajadores IT -Todos los derechos reservados.
                 </p>
             </div>

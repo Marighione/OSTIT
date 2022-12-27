@@ -1,14 +1,28 @@
-.asistencia {
-    background-color: #d9d9e06c;
-    border-radius: 32px;
+/* Estilo de la sección Información útil */
+.info-util{
+    &__titulo{
+        color: $verde;
+        font-weight: bolder;
+    }
 
-
+    &__subtitulo{
+        color: $violeta;
+    }
 }
 
-.form-floating{
-    color: #6C1B89;
+/* Estilo del formulario de contacto */
+.formulario{
+    &__titulo{
+        color: $verde;
+        font-weight: bolder;
+    }
+    &__form-floating{
+        color: $violeta;
+        
+    }
     
 }
+
 
 
 

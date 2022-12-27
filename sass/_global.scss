@@ -4,30 +4,73 @@
     box-sizing: border-box;
     font-family: 'Noto Sans Display', sans-serif;
 }
-body{
-    background-color:#fcfcfc
 
+/* Body */
+body {
+    background-color: $bgBody
 }
+
+/* Estilo h2 */
+h2{
+    font-size: xx-large;;
+    color: $violeta;
+    font-weight: bold;
+}
+
+/* Numero de emergencia */
 .emergencia {
     color: $violeta;
     font-size: medium;
 }
 
-footer {
-    background-color: #cbebe27c;
+/* Logo */
+.logo-navbar-brand {
+    padding-right: 3rem;
 }
 
-.p-footer {
-    font-size: smaller;
+/* Navbar */
+.navbar {
+    background-color: $verdeHeader;
+    padding: 1rem;
 }
 
-.copy {
-    font-size: smaller;
-    font-weight: bolder;
+/* Links de Navbar */
+.nav-link {
+    color: $violeta;
+    font-weight: bold;
 }
 
-.iconos-redes i {
-    color: #6c1b89cb;
-    font-size: 24px;
-    margin: 8px;
+/* Footer */
+.footer {
+
+    &__body {
+        background-color: $verdeFooter;
+    }
+
+
+    &__p {
+        font-size: smaller;
+    }
+
+
+    &__copy {
+        font-size: smaller;
+        font-weight: bolder;
+    }
+
+
+    &__iconos-redes {
+        color: $violeta;
+        font-size: 24px;
+        margin: 8px;
+    }
 }
+
+/* Botón */
+.boton {
+    font-size: medium;
+    background-color: $violeta;
+    color: $bgBody;
+}
+
+
