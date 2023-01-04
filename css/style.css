@@ -8405,7 +8405,9 @@ h2, .h2 {
 /* Numero de emergencia */
 .emergencia {
   color: #6C1B89;
-  font-size: medium; }
+  font-size: large;
+  background-color: #fcfcfc67;
+  margin-left: 910px; }
 
 /* Logo */
 .logo-navbar-brand {
@@ -8413,13 +8415,22 @@ h2, .h2 {
 
 /* Navbar */
 .navbar {
-  background-color: #CBEBE2;
-  padding: 1rem; }
+  background-color: #CBEBE2; }
+  .navbar :active {
+    color: #007670; }
+
+.nav-item :hover {
+  color: #007670; }
+
+.boton-nav {
+  margin-left: auto; }
 
 /* Links de Navbar */
 .nav-link {
   color: #6C1B89;
-  font-weight: bold; }
+  font-weight: 600; }
+  .nav-link :active {
+    color: #007670; }
 
 /* Footer */
 .footer__body {
@@ -8443,11 +8454,47 @@ h2, .h2 {
   background-color: #6C1B89;
   color: #fcfcfc; }
 
+@media screen and (max-width: 1023px) {
+  .emergencia {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 8px; } }
+
+@media screen and (max-width: 767px) {
+  .emergencia {
+    font-size: small;
+    font-weight: bolder;
+    margin-left: 24px; } }
+
+@media screen and (max-width: 767px) {
+  h1, .h1 {
+    font-size: large;
+    font-weight: bold; } }
+
+@media screen and (max-width: 1023px) {
+  h2, .h2 {
+    font-size: xx-large; } }
+
+@media screen and (max-width: 767px) {
+  h2, .h2 {
+    font-size: x-large; } }
+
+@media screen and (max-width: 1023px) {
+  h3, .h3 {
+    font-size: x-large; } }
+
+@media screen and (max-width: 767px) {
+  h3, .h3 {
+    font-size: large; } }
+
 /* Estilo del texto del Hero */
 .hero-texto {
   color: #fcfcfc;
   font-style: italic;
   background-color: #6c1b897b;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 4px;
   -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
@@ -8497,20 +8544,90 @@ h2, .h2 {
   background-position: center center;
   height: 80vh; }
 
+@media screen and (max-width: 767px) {
+  .hero-imagen-quienes-somos {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .hero-imagen-contacto {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .hero-imagen-planes {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .hero-imagen-cartilla {
+    height: 40vh; } }
+
+@media screen and (max-width: 1023px) {
+  .hero-imagen-quienes-somos {
+    height: 40vh; } }
+
+@media screen and (max-width: 1023px) {
+  .hero-imagen-contacto {
+    height: 40vh; } }
+
+@media screen and (max-width: 1023px) {
+  .hero-imagen-planes {
+    height: 40vh; } }
+
+@media screen and (max-width: 1023px) {
+  .hero-imagen-cartilla {
+    height: 40vh; } }
+
+/* Carrousel de imágenes */
+.titulo-index {
+  color: #fcfcfc;
+  font-style: italic;
+  background-color: #6c1b896a;
+  padding: 6px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px; }
+
+.p-hero {
+  color: #6C1B89;
+  background-color: #fcfcfcd4;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  margin-bottom: 88px; }
+
+.carousel-inner {
+  position: center center;
+  size: cover; }
+
+.carousel-indicators {
+  margin-bottom: 80px; }
+
+.img-hero {
+  height: 80vh; }
+
 /* Titulo cards de Planes */
 .card-title {
   color: #007670;
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: #6c1b8920;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px; }
 
 /* Animación cards de Planes */
 .planes:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  color: #007670; }
 
 /* Numeros teléfonicos importantes */
 .numeros-inicio {
-  background-color: #d9d9e058;
-  border-radius: 32px; }
+  background-image: url(../imágenes/fondo-numeros-utiles.jpg);
+  background-size: cover;
+  background-position: center center; }
+  .numeros-inicio__card {
+    background-color: #fcfcfca0;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    margin-left: 1px;
+    border-radius: 6px; }
   .numeros-inicio__index {
     font-size: xx-large;
     font-weight: bolder; }
@@ -8546,7 +8663,28 @@ h2, .h2 {
 .doc-24__te-ofrecemos {
   font-weight: bolder; }
 
+/* Media querie Carrousel */
+@media screen and (max-width: 767px) {
+  .p-hero {
+    display: none; } }
+
 /* Media querie de Numeros de teléfono importantes */
+@media screen and (max-width: 767px) {
+  .numeros-inicio__card {
+    background-color: none;
+    margin-top: 0px;
+    padding-top: 16px;
+    padding-bottom: 5px; } }
+
+@media screen and (max-width: 1023px) {
+  .numeros-inicio__index {
+    font-size: x-large;
+    color: #6C1B89;
+    font-weight: bolder; }
+  .numeros-inicio__titulo {
+    color: #1c1c1c;
+    font-weight: lighter; } }
+
 @media screen and (max-width: 767px) {
   .numeros-inicio__index {
     font-size: large;
@@ -8555,6 +8693,22 @@ h2, .h2 {
   .numeros-inicio__titulo {
     color: #1c1c1c;
     font-weight: lighter; } }
+
+@media screen and (max-width: 767px) {
+  .img-hero {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .carousel-indicators {
+    margin-bottom: 5px; } }
+
+@media screen and (max-width: 1023px) {
+  .img-hero {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .planes {
+    margin-left: 24px; } }
 
 /* Estilo Quiénes somos */
 .lo-que-nos-mueve__h3 {
@@ -8568,6 +8722,25 @@ h2, .h2 {
 .lo-que-nos-mueve__proposito {
   font-style: italic;
   font-size: x-large; }
+
+@media screen and (max-width: 1023px) {
+  .lo-que-nos-mueve__proposito {
+    font-size: x-large;
+    padding-bottom: 40px; } }
+
+@media screen and (max-width: 767px) {
+  .lo-que-nos-mueve__proposito {
+    font-size: medium;
+    padding-top: 0px;
+    padding-bottom: 0px; } }
+
+@media screen and (max-width: 1023px) {
+  .lo-que-nos-mueve {
+    padding-top: 2px; } }
+
+@media screen and (max-width: 767px) {
+  .lo-que-nos-mueve {
+    padding-top: 2px; } }
 
 /* Estilo de la sección Información útil */
 .info-util__titulo {

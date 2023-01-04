@@ -11,8 +11,8 @@ body {
 }
 
 /* Estilo h2 */
-h2{
-    font-size: xx-large;;
+h2 {
+    font-size: xx-large;
     color: $violeta;
     font-weight: bold;
 }
@@ -20,7 +20,11 @@ h2{
 /* Numero de emergencia */
 .emergencia {
     color: $violeta;
-    font-size: medium;
+    font-size: large;
+    background-color: #fcfcfc67;
+    margin-left: 910px;
+    
+    
 }
 
 /* Logo */
@@ -31,13 +35,34 @@ h2{
 /* Navbar */
 .navbar {
     background-color: $verdeHeader;
-    padding: 1rem;
+
+    & :active {
+        color: $verde;
+    }
+
 }
+
+.nav-item {
+    & :hover {
+        color: $verde;
+    }
+}
+
+.boton-nav {
+   margin-left: auto;
+
+}
+
 
 /* Links de Navbar */
 .nav-link {
     color: $violeta;
-    font-weight: bold;
+    font-weight: 600;
+
+    & :active {
+        color: $verde;
+    }
+
 }
 
 /* Footer */
@@ -73,4 +98,57 @@ h2{
     color: $bgBody;
 }
 
+@media screen and (max-width: 1023px) {
+    .emergencia {
+        font-size: x-large;
+        font-weight: bolder;
+        margin-left: 8px;
+    }
+}
 
+@media screen and (max-width: 767px) {
+    .emergencia {
+        font-size: small;
+        font-weight: bolder;
+        margin-left: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: large;
+        font-weight: bold;
+        
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h2 {
+        font-size: xx-large;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: x-large;
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h3 {
+        font-size: x-large;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: large;
+        
+    }
+}

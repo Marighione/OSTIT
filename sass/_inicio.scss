@@ -1,20 +1,77 @@
+/* Carrousel de imágenes */
+.titulo-index {
+    color: $bgBody;
+    font-style: italic;
+    background-color: #6c1b896a;
+    padding: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+}
+
+.p-hero {
+    color: $violeta;
+    background-color: #fcfcfcd4;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    margin-bottom: 88px;
+
+}
+
+.carousel-inner {
+
+    position: center center;
+    size: cover;
+
+}
+
+.carousel-indicators {
+    margin-bottom: 80px;
+}
+
+.img-hero {
+    height: 80vh;
+
+}
 
 /* Titulo cards de Planes */
+
+
 .card-title {
     color: $verde;
     font-weight: bold;
+    background-color: #6c1b8920;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 /* Animación cards de Planes */
 .planes:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
     border-radius: 8px;
+    color: $verde;
 }
 
 /* Numeros teléfonicos importantes */
 .numeros-inicio {
-    background-color: #d9d9e058;
-    border-radius: 32px;
+    background-image: url(../imágenes/fondo-numeros-utiles.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+
+
+
+    &__card {
+        background-color: #fcfcfca0;
+        margin-top: 15px;
+        padding-top: 25px;
+        padding-bottom: 24px;
+        margin-left: 1px;
+        border-radius: 6px;
+
+
+    }
 
     &__index {
         font-size: xx-large;
@@ -30,7 +87,9 @@
     &__subtitulo {
         font-weight: bolder;
     }
+
 }
+
 
 /* Apartado Tu cuenta online */
 .tu-cuenta-online {
@@ -68,18 +127,96 @@
     }
 }
 
-/* Media querie de Numeros de teléfono importantes */
-@media screen and (max-width: 767px){
-    .numeros-inicio__index{
-        font-size:large;
-        color: $violeta;
-        font-weight: bolder;
-    }
-    .numeros-inicio__titulo{
-        color: $primario;
-        font-weight: lighter;
-    }
+/* Media querie Carrousel */
 
+
+@media screen and (max-width: 767px) {
+    .p-hero {
+        display: none;
+    }
 }
 
 
+
+
+
+
+
+
+/* Media querie de Numeros de teléfono importantes */
+
+@media screen and (max-width: 767px) {
+
+    .numeros-inicio {
+
+       
+}
+}
+
+    @media screen and (max-width: 767px) {
+        .numeros-inicio__card {
+            background-color: none;
+            margin-top: 0px;
+            padding-top: 16px;
+            padding-bottom: 5px;
+        }
+    }
+
+
+    @media screen and (max-width: 1023px) {
+
+        .numeros-inicio__index {
+            font-size: x-large;
+            color: $violeta;
+            font-weight: bolder;
+        }
+
+        .numeros-inicio__titulo {
+            color: $primario;
+            font-weight: lighter;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .numeros-inicio__index {
+            font-size: large;
+            color: $violeta;
+            font-weight: bolder;
+        }
+
+        .numeros-inicio__titulo {
+            color: $primario;
+            font-weight: lighter;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+        .img-hero {
+            height: 40vh;
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 767px) {
+        .carousel-indicators {
+            margin-bottom: 5px;
+        }
+
+    }
+
+    @media screen and (max-width: 1023px) {
+        .img-hero {
+            height: 40vh;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+    .planes { 
+        margin-left: 24px;
+    }
+}

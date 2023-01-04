@@ -3,6 +3,9 @@
     color: $bgBody;
     font-style: italic;
     background-color: #6c1b897b;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 4px;
     -webkit-animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both;
     
@@ -64,3 +67,52 @@
 
 }
 
+
+@media screen and (max-width: 767px){
+    .hero-imagen-quienes-somos{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hero-imagen-contacto{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hero-imagen-planes{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hero-imagen-cartilla{
+      height: 40vh;
+    }
+}
+
+
+@media screen and (max-width: 1023px){
+    .hero-imagen-quienes-somos{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .hero-imagen-contacto{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .hero-imagen-planes{
+      height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .hero-imagen-cartilla{
+      height: 40vh;
+    }
+}

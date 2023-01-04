@@ -1,16 +1,52 @@
 /* Estilo Quiénes somos */
-.lo-que-nos-mueve{
-    &__h3{
-color: $verde;
-font-weight: bolder;
+.lo-que-nos-mueve {
+    &__h3 {
+        color: $verde;
+        font-weight: bolder;
     }
 
-    &__h4{
+    &__h4 {
         color: $violeta;
         background-color: $verdeFondo;
     }
-    &__proposito{
+
+    &__proposito {
         font-style: italic;
         font-size: x-large;
+    }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    .lo-que-nos-mueve__proposito {
+        font-size: x-large;
+        padding-bottom: 40px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lo-que-nos-mueve__proposito {
+        font-size: medium;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .lo-que-nos-mueve {
+        padding-top: 2px;
+       
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lo-que-nos-mueve {
+        padding-top: 2px;
+        
     }
 }
