@@ -8466,27 +8466,6 @@ h2, .h2 {
     font-weight: bolder;
     margin-left: 24px; } }
 
-@media screen and (max-width: 767px) {
-  h1, .h1 {
-    font-size: large;
-    font-weight: bold; } }
-
-@media screen and (max-width: 1023px) {
-  h2, .h2 {
-    font-size: xx-large; } }
-
-@media screen and (max-width: 767px) {
-  h2, .h2 {
-    font-size: x-large; } }
-
-@media screen and (max-width: 1023px) {
-  h3, .h3 {
-    font-size: x-large; } }
-
-@media screen and (max-width: 767px) {
-  h3, .h3 {
-    font-size: large; } }
-
 /* Estilo del texto del Hero */
 .hero-texto {
   color: #fcfcfc;
@@ -8671,7 +8650,6 @@ h2, .h2 {
 /* Media querie de Numeros de teléfono importantes */
 @media screen and (max-width: 767px) {
   .numeros-inicio__card {
-    background-color: none;
     margin-top: 0px;
     padding-top: 16px;
     padding-bottom: 5px; } }
@@ -8709,6 +8687,10 @@ h2, .h2 {
 @media screen and (max-width: 767px) {
   .planes {
     margin-left: 24px; } }
+
+@media screen and (max-width: 1023px) {
+  .img-hero {
+    height: 40vh; } }
 
 /* Estilo Quiénes somos */
 .lo-que-nos-mueve__h3 {
@@ -8750,6 +8732,17 @@ h2, .h2 {
 .info-util__subtitulo {
   color: #6C1B89; }
 
+.info-util__card-contacto {
+  background-image: url(../imágenes/fondo-contacto.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 45vh;
+  padding-top: 45px;
+  border-radius: 6px; }
+
+.info-util__asistencia {
+  background-color: #fcfcfcb6; }
+
 /* Estilo del formulario de contacto */
 .formulario__titulo {
   color: #007670;
@@ -8758,9 +8751,35 @@ h2, .h2 {
 .formulario__form-floating {
   color: #6C1B89; }
 
+@media screen and (max-width: 767px) {
+  .info-util__asistencia {
+    background-color: #fcfcfcb6;
+    margin-top: 0px;
+    padding-top: 16px;
+    padding-bottom: 5px; } }
+
+@media screen and (max-width: 1023px) {
+  .info-util__card-contacto {
+    height: 30vh;
+    padding-top: 65px; } }
+
+@media screen and (max-width: 767px) {
+  .info-util__card-contacto {
+    background-image: none;
+    height: 60vh;
+    padding-top: 0px; } }
+
 /* Estilo h3 */
-.h3-cartilla {
-  background-color: #00767014; }
+.h4-cartilla {
+  background-color: #6c1b890f;
+  font-size: x-large;
+  color: #007670;
+  padding: 6px;
+  border-radius: 6px; }
+
+@media screen and (max-width: 760) {
+  .form-select {
+    font-size: x-small; } }
 
 /* Estilo menú acordeón de Planes */
 .accordion-button {

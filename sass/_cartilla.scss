@@ -1,5 +1,17 @@
 
 /* Estilo h3 */
-.h3-cartilla{
-    background-color: $verdeFondo
+.h4-cartilla{
+    background-color: #6c1b890f;
+    font-size: x-large;
+    color: $verde;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+
+
+@media screen and (max-width: 760){
+    .form-select{
+        font-size: x-small;
+    }
 }

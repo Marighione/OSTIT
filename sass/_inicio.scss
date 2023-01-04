@@ -155,7 +155,6 @@
 
     @media screen and (max-width: 767px) {
         .numeros-inicio__card {
-            background-color: none;
             margin-top: 0px;
             padding-top: 16px;
             padding-bottom: 5px;
@@ -220,3 +219,14 @@
         margin-left: 24px;
     }
 }
+
+
+@media screen and (max-width: 1023px) {
+    .img-hero {
+        height: 40vh;
+    }
+}
+
+
+
+
