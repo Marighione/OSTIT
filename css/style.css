@@ -8732,17 +8732,6 @@ h2, .h2 {
 .info-util__subtitulo {
   color: #6C1B89; }
 
-.info-util__card-contacto {
-  background-image: url(../imágenes/fondo-contacto.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 45vh;
-  padding-top: 45px;
-  border-radius: 6px; }
-
-.info-util__asistencia {
-  background-color: #fcfcfcb6; }
-
 /* Estilo del formulario de contacto */
 .formulario__titulo {
   color: #007670;
@@ -8750,6 +8739,9 @@ h2, .h2 {
 
 .formulario__form-floating {
   color: #6C1B89; }
+
+.boton-contacto {
+  margin-left: 450px; }
 
 @media screen and (max-width: 767px) {
   .info-util__asistencia {

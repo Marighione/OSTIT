@@ -1,7 +1,6 @@
 /* Estilo de la sección Información útil */
 .info-util {
 
-
     &__titulo {
         color: $verde;
         font-weight: bolder;
@@ -11,24 +10,6 @@
         color: $violeta;
     }
 
-    &__card-contacto {
-        background-image: url(../imágenes/fondo-contacto.jpg);
-        background-size: cover;
-        background-position: center center;
-        height: 45vh;
-        padding-top: 45px;
-        border-radius: 6px;
-
-
-    }
-
-    &__asistencia {
-        background-color: #fcfcfcb6;
-
-
-
-
-    }
 }
 
 /* Estilo del formulario de contacto */
@@ -46,7 +27,9 @@
 }
 
 
-
+.boton-contacto{
+    margin-left: 450px;
+}
 
 
 

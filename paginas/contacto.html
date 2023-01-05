@@ -20,7 +20,7 @@
     <header>
 
         <!-- Logo + nav -->
-        <nav class="navbar navbar-expand-lg p-3">
+        <nav class="navbar fixed-top navbar-expand-lg p-3">
             <div class="container">
                 <a class="logo-navbar-brand" href="#"><img src="../imágenes/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -76,37 +76,30 @@
 
 
         <!-- Información útil -->
-        <section class="info-util container text-center align-items-center pt-5 pb-5 mb-5">
+        <section class="info-util container text-center align-items-center pt-5 pb-5">
             <h2 class="text-start pb-5">Contacto</h2>
             <h3 class="info-util__titulo pb-4">Información útil</h3>
-            <div class="info-util__card-contacto">
-                <div class="info-util__asistencia row pb-3 pt-3">
-                    <div class="col-md-6 ">
-                        <h4 class="info-util__subtitulo pb-3">Atención al socio</h4>
-                        <p>Lunes a Viernes de 09:00 a 20:00</p>
-                        <p> <img src="../imágenes/icons-whatsapp.jpg" alt="icono whatsapp"> 11-4490-9000</p>
-                        <p> <img src="../imágenes/icono-telefono-verde.png" alt="icono telefono"> 0800-555-9780</p>
-                        <p> <img src="../imágenes/icono-mail.png" alt="icono mail"> contacto@ostit.com.ar</p>
+            <div class="asistencia row pb-3 pt-3 shadow-lg p-0 mb-0 mt-0 bg-body rounded">
+                <div class="col-md-6 ">
+                    <h4 class="info-util__subtitulo pb-3 pt-3">Atención al socio</h4>
+                    <p>Lunes a Viernes de 09:00 a 20:00</p>
+                    <p> <img src="../imágenes/icons-whatsapp.jpg" alt="icono whatsapp"> 11-4490-9000</p>
+                    <p> <img src="../imágenes/icono-telefono-verde.png" alt="icono telefono"> 0800-555-9780</p>
+                    <p> <img src="../imágenes/icono-mail.png" alt="icono mail"> contacto@ostit.com.ar</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="info-util__subtitulo pb-3 pt-3">Asistencia médica virtual</h4>
+                    <p> <img src="../imágenes/icons-whatsapp.jpg" alt="icono whatsapp"> 11-4490-9010</p>
+                    <p> <img src="../imágenes/icono-telefono-verde.png" alt="icono telefono"> 0800-555-99982</p>
 
-
-
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="info-util__subtitulo pb-3">Asistencia médica virtual</h4>
-                        <p> <img src="../imágenes/icons-whatsapp.jpg" alt="icono whatsapp"> 11-4490-9010</p>
-                        <p> <img src="../imágenes/icono-telefono-verde.png" alt="icono telefono"> 0800-555-99982</p>
-                        <button type="button"
-                            class="container boton-nav btn-primary btn rounded border-0 mt-2 col-6 mb-5">Contactá
-                            a Doc.24</button>
-
-                    </div>
-
-
+                    <button type="button" class="boton-nav btn-primary btn rounded border-0 mb-5 mt-2 col-5">Contactá a
+                        Doc.24</button>
 
 
                 </div>
-            </div>
         </section>
+
+
 
         <!-- Formulario de contacto -->
 
@@ -186,12 +179,12 @@
                         <textarea class="form-control" placeholder="Dejanos tu consulta" id="floatingTextarea2"
                             style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Dejanos tu consulta</label>
-                        <button type="button"
-                            class="container boton-nav btn-primary btn rounded border-0 mb-5 mt-4 col-5">Enviar
-                            consulta</button>
+                        
+                            <button type="button" class="boton-nav btn-primary btn rounded border-0 mb-5 mt-4 col-6">Enviar
+                                consulta</button>
+                        
                     </div>
-
-
+                   
                 </div>
 
 
@@ -203,16 +196,22 @@
         </section>
 
 
-        <!-- Footer -->
+        <!-- Footer-->
         <footer class="footer__body container-fluid pt-5 text-center">
             <div class="row">
                 <div class="col-md 12">
                     <h5 class="text-center"> Seguinos en las redes</h5>
                     <div class="footer__iconos-redes pb-2">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-square-twitter"></i>
-                        <i class="fa-brands fa-square-instagram"></i>
+                        <a href="https://www.facebook.com"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+
+                        
                     </div>
                 </div>
                 <div class="footer__p">
@@ -230,9 +229,6 @@
 
 
         </footer>
-
-
-
 
 
 
