@@ -8404,10 +8404,12 @@ h2, .h2 {
 
 /* Numero de emergencia */
 .emergencia {
-  color: #6C1B89;
-  font-size: large;
-  background-color: #fcfcfc67;
-  margin-left: 910px; }
+  color: #007670;
+  background-color: #6c1b890f;
+  font-size: x-large;
+  margin-top: 48px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; }
 
 /* Logo */
 .logo-navbar-brand {
@@ -8457,14 +8459,14 @@ h2, .h2 {
 @media screen and (max-width: 1023px) {
   .emergencia {
     font-size: x-large;
-    font-weight: bolder;
-    margin-left: 8px; } }
+    font-weight: bolder; } }
 
 @media screen and (max-width: 767px) {
   .emergencia {
-    font-size: small;
+    font-size: large;
     font-weight: bolder;
-    margin-left: 24px; } }
+    margin-bottom: 16px;
+    padding: 64px; } }
 
 /* Estilo del texto del Hero */
 .hero-texto {
@@ -8488,40 +8490,37 @@ h2, .h2 {
     transform: scale(1);
     opacity: 1; } }
 
-/* Hero Página de inicio */
-.hero-imagen-index {
-  background: url(../imágenes/imagen-principal-index.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 80vh; }
-
 /* Hero Página Quiénes somos */
 .hero-imagen-quienes-somos {
   background-image: url(../imágenes/imagen-principal-quienes-somos.jpg);
   background-size: cover;
   background-position: center center;
-  height: 80vh; }
+  height: 90vh;
+  margin-top: 48px; }
 
 /* Hero Página de Cartilla */
 .hero-imagen-cartilla {
   background-image: url(../imágenes/imagen-principal-cartilla.jpg);
   background-size: cover;
   background-position: center center;
-  height: 80vh; }
+  height: 90vh;
+  margin-top: 48px; }
 
 /* Hero Página de Planes */
 .hero-imagen-planes {
   background-image: url(../imágenes/imagen-principal-planes.jpg);
   background-size: cover;
   background-position: center center;
-  height: 80vh; }
+  height: 90vh;
+  margin-top: 48px; }
 
 /* Hero Página de Contacto */
 .hero-imagen-contacto {
   background-image: url(../imágenes/imagen-principal-contacto.jpg);
   background-size: cover;
   background-position: center center;
-  height: 80vh; }
+  height: 85vh;
+  margin-top: 48px; }
 
 @media screen and (max-width: 767px) {
   .hero-imagen-quienes-somos {
@@ -8630,17 +8629,17 @@ h2, .h2 {
     font-size: large; }
 
 /* Apartado DOC.24 */
-.doc-24__titulo {
-  color: #007670;
-  font-size: xx-large;
-  font-weight: bolder;
-  background: none; }
-
-.doc-24__atencion-medica {
-  font-size: large; }
-
-.doc-24__te-ofrecemos {
-  font-weight: bolder; }
+.doc-24 {
+  background-color: #6C1B89; }
+  .doc-24__titulo {
+    color: #007670;
+    font-size: xx-large;
+    font-weight: bolder;
+    background: none; }
+  .doc-24__atencion-medica {
+    font-size: large; }
+  .doc-24__te-ofrecemos {
+    font-weight: bolder; }
 
 /* Media querie Carrousel */
 @media screen and (max-width: 767px) {
@@ -8699,7 +8698,8 @@ h2, .h2 {
 
 .lo-que-nos-mueve__h4 {
   color: #6C1B89;
-  background-color: #00767014; }
+  background-color: #00767014;
+  padding: 6px; }
 
 .lo-que-nos-mueve__proposito {
   font-style: italic;
@@ -8732,6 +8732,18 @@ h2, .h2 {
 .info-util__subtitulo {
   color: #6C1B89; }
 
+.info-util__asistencia {
+  background-image: url(../imágenes/fondo-contacto.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.info-util__informacion {
+  background-color: #fcfcfcc7;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
 /* Estilo del formulario de contacto */
 .formulario__titulo {
   color: #007670;
@@ -8742,24 +8754,6 @@ h2, .h2 {
 
 .boton-contacto {
   margin-left: 450px; }
-
-@media screen and (max-width: 767px) {
-  .info-util__asistencia {
-    background-color: #fcfcfcb6;
-    margin-top: 0px;
-    padding-top: 16px;
-    padding-bottom: 5px; } }
-
-@media screen and (max-width: 1023px) {
-  .info-util__card-contacto {
-    height: 30vh;
-    padding-top: 65px; } }
-
-@media screen and (max-width: 767px) {
-  .info-util__card-contacto {
-    background-image: none;
-    height: 60vh;
-    padding-top: 0px; } }
 
 /* Estilo h3 */
 .h4-cartilla {

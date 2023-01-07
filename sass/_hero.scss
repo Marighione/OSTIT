@@ -26,20 +26,14 @@
     }
 }
 
-/* Hero Página de inicio */
-.hero-imagen-index {
-    background: url(../imágenes/imagen-principal-index.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 80vh;
-}
 
 /* Hero Página Quiénes somos */
 .hero-imagen-quienes-somos {
     background-image: url(../imágenes/imagen-principal-quienes-somos.jpg);
     background-size: cover;
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
+    margin-top: 48px;
 }
 
 /* Hero Página de Cartilla */
@@ -47,7 +41,8 @@
     background-image: url(../imágenes/imagen-principal-cartilla.jpg);
     background-size: cover;
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
+    margin-top: 48px;
 }
 
 /* Hero Página de Planes */
@@ -55,7 +50,8 @@
     background-image: url(../imágenes/imagen-principal-planes.jpg);
     background-size: cover;
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
+    margin-top: 48px;
 }
 
 /* Hero Página de Contacto */
@@ -63,8 +59,8 @@
     background-image: url(../imágenes/imagen-principal-contacto.jpg);
     background-size: cover;
     background-position: center center;
-    height: 80vh;
-
+    height: 85vh;
+    margin-top: 48px;
 }
 
 

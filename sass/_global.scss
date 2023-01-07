@@ -19,11 +19,14 @@ h2 {
 
 /* Numero de emergencia */
 .emergencia {
-    color: $violeta;
-    font-size: large;
-    background-color: #fcfcfc67;
-    margin-left: 910px;
-    
+color: $verde;
+background-color: #6c1b890f;
+font-size: x-large;
+margin-top: 48px;
+
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+
     
 }
 
@@ -103,15 +106,17 @@ h2 {
     .emergencia {
         font-size: x-large;
         font-weight: bolder;
-        margin-left: 8px;
+        
     }
 }
 
 @media screen and (max-width: 767px) {
     .emergencia {
-        font-size: small;
+        font-size: large;
         font-weight: bolder;
-        margin-left: 24px;
+        margin-bottom: 16px;
+        padding: 64px;
+       
     }
 }
 
