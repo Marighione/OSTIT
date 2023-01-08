@@ -12,22 +12,33 @@ body {
 
 /* Estilo h2 */
 h2 {
+    color: $verde;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* Estilo h3 */
+h3 {
     font-size: xx-large;
     color: $violeta;
     font-weight: bold;
 }
 
-/* Numero de emergencia */
+/* Botón */
+.boton {
+    font-size: medium;
+    background-color: $violeta;
+    color: $bgBody;
+}
+
+/* Numero de Emergencias y Urgencias */
 .emergencia {
-color: $verde;
-background-color: #6c1b890f;
-font-size: x-large;
-margin-top: 48px;
-
-border-top-left-radius: 16px;
-border-top-right-radius: 16px;
-
-    
+    color: $verde;
+    font-size: x-large;
+    background-color: #6c1b890f;
+    margin-top: 88px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 /* Logo */
@@ -38,35 +49,25 @@ border-top-right-radius: 16px;
 /* Navbar */
 .navbar {
     background-color: $verdeHeader;
-    
 
-    & :active {
-        color: $verde;
+    &__nav-item {
+        & :hover {
+            color: $verde;
+        }
+
     }
 
 }
 
-.nav-item {
-    & :hover {
-        color: $verde;
-    }
-}
-
+/* Botón Navbar */
 .boton-nav {
-   margin-left: auto;
-
+    margin-left: auto;
 }
-
 
 /* Links de Navbar */
 .nav-link {
     color: $violeta;
     font-weight: 600;
-
-    & :active {
-        color: $verde;
-    }
-
 }
 
 /* Footer */
@@ -76,6 +77,11 @@ border-top-right-radius: 16px;
         background-color: $verdeFooter;
     }
 
+    &__h5 {
+        color: $violeta;
+        font-weight: bold;
+        font-size: large;
+    }
 
     &__p {
         font-size: smaller;
@@ -95,30 +101,21 @@ border-top-right-radius: 16px;
     }
 }
 
-/* Botón */
-.boton {
-    font-size: medium;
-    background-color: $violeta;
-    color: $bgBody;
-}
+
+
+
+/* Media queries de Numero de Emergencias y Urgencias */
 
 @media screen and (max-width: 1023px) {
     .emergencia {
         font-size: x-large;
         font-weight: bolder;
-        
     }
 }
 
 @media screen and (max-width: 767px) {
     .emergencia {
-        font-size: large;
+        font-size: normal;
         font-weight: bolder;
-        margin-bottom: 16px;
-        padding: 64px;
-       
     }
 }
-
-
-

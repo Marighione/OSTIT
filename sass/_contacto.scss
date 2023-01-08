@@ -1,7 +1,9 @@
-/* Estilo de la sección Información útil */
+/* Sección Información útil */
+
 .info-util {
 
     &__titulo {
+        font-size: x-large;
         color: $verde;
         font-weight: bolder;
     }
@@ -14,49 +16,31 @@
         background-image: url(../imágenes/fondo-contacto.jpg);
         background-size: cover;
         background-position: center center;
-
-
+        font-size: large;
     }
 
     &__informacion {
         background-color: #fcfcfcc7;
-         margin-top: 8px;
-         margin-bottom: 8px;
-         padding-top: 16px;
-         padding-bottom: 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
 }
 
-/* Estilo del formulario de contacto */
+/* Sección formulario de contacto */
 .formulario {
+    
     &__titulo {
+        font-size: x-large;
         color: $verde;
         font-weight: bolder;
     }
 
     &__form-floating {
         color: $violeta;
-
     }
 
 }
 
-
-.boton-contacto {
-    margin-left: 450px;
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 1023px) {
-    .info-util__informacion {}
-}
-
-@media screen and (max-width: 767px) {
-    .info-util__informacion {}
-}

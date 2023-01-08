@@ -64,10 +64,27 @@
 }
 
 
+
+/* Media queries Hero */
+
+@media screen and (max-width: 1023px){
+  .hero-imagen-quienes-somos{
+    height: 45vh;
+  }
+}
+
 @media screen and (max-width: 767px){
     .hero-imagen-quienes-somos{
       height: 40vh;
     }
+}
+
+
+
+@media screen and (max-width: 1023px){
+  .hero-imagen-contacto{
+    height: 40vh;
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -76,10 +93,26 @@
     }
 }
 
+
+
+@media screen and (max-width: 1023px){
+  .hero-imagen-planes{
+    height: 45vh;
+  }
+}
+
 @media screen and (max-width: 767px){
     .hero-imagen-planes{
       height: 40vh;
     }
+}
+
+
+
+@media screen and (max-width: 1023px){
+  .hero-imagen-cartilla{
+    height: 45vh;
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -89,26 +122,3 @@
 }
 
 
-@media screen and (max-width: 1023px){
-    .hero-imagen-quienes-somos{
-      height: 40vh;
-    }
-}
-
-@media screen and (max-width: 1023px){
-    .hero-imagen-contacto{
-      height: 40vh;
-    }
-}
-
-@media screen and (max-width: 1023px){
-    .hero-imagen-planes{
-      height: 40vh;
-    }
-}
-
-@media screen and (max-width: 1023px){
-    .hero-imagen-cartilla{
-      height: 40vh;
-    }
-}

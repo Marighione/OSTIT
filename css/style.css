@@ -3502,7 +3502,7 @@ textarea.form-control-lg {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
-  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-border-color: #6c1b895f;
   --bs-accordion-border-width: 1px;
   --bs-accordion-border-radius: 0.375rem;
   --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
@@ -8398,16 +8398,28 @@ body {
 
 /* Estilo h2 */
 h2, .h2 {
+  color: #007670;
+  font-size: x-large;
+  font-weight: bolder; }
+
+/* Estilo h3 */
+h3, .h3 {
   font-size: xx-large;
   color: #6C1B89;
   font-weight: bold; }
 
-/* Numero de emergencia */
+/* Botón */
+.boton {
+  font-size: medium;
+  background-color: #6C1B89;
+  color: #fcfcfc; }
+
+/* Numero de Emergencias y Urgencias */
 .emergencia {
   color: #007670;
-  background-color: #6c1b890f;
   font-size: x-large;
-  margin-top: 48px;
+  background-color: #6c1b890f;
+  margin-top: 88px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px; }
 
@@ -8418,12 +8430,10 @@ h2, .h2 {
 /* Navbar */
 .navbar {
   background-color: #CBEBE2; }
-  .navbar :active {
+  .navbar__nav-item :hover {
     color: #007670; }
 
-.nav-item :hover {
-  color: #007670; }
-
+/* Botón Navbar */
 .boton-nav {
   margin-left: auto; }
 
@@ -8431,12 +8441,15 @@ h2, .h2 {
 .nav-link {
   color: #6C1B89;
   font-weight: 600; }
-  .nav-link :active {
-    color: #007670; }
 
 /* Footer */
 .footer__body {
   background-color: #cbebe249; }
+
+.footer__h5 {
+  color: #6C1B89;
+  font-weight: bold;
+  font-size: large; }
 
 .footer__p {
   font-size: smaller; }
@@ -8450,12 +8463,7 @@ h2, .h2 {
   font-size: 24px;
   margin: 8px; }
 
-/* Botón */
-.boton {
-  font-size: medium;
-  background-color: #6C1B89;
-  color: #fcfcfc; }
-
+/* Media queries de Numero de Emergencias y Urgencias */
 @media screen and (max-width: 1023px) {
   .emergencia {
     font-size: x-large;
@@ -8463,10 +8471,8 @@ h2, .h2 {
 
 @media screen and (max-width: 767px) {
   .emergencia {
-    font-size: large;
-    font-weight: bolder;
-    margin-bottom: 16px;
-    padding: 64px; } }
+    font-size: normal;
+    font-weight: bolder; } }
 
 /* Estilo del texto del Hero */
 .hero-texto {
@@ -8522,35 +8528,36 @@ h2, .h2 {
   height: 85vh;
   margin-top: 48px; }
 
+/* Media queries Hero */
+@media screen and (max-width: 1023px) {
+  .hero-imagen-quienes-somos {
+    height: 45vh; } }
+
 @media screen and (max-width: 767px) {
   .hero-imagen-quienes-somos {
+    height: 40vh; } }
+
+@media screen and (max-width: 1023px) {
+  .hero-imagen-contacto {
     height: 40vh; } }
 
 @media screen and (max-width: 767px) {
   .hero-imagen-contacto {
     height: 40vh; } }
 
+@media screen and (max-width: 1023px) {
+  .hero-imagen-planes {
+    height: 45vh; } }
+
 @media screen and (max-width: 767px) {
   .hero-imagen-planes {
     height: 40vh; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .hero-imagen-cartilla {
-    height: 40vh; } }
+    height: 45vh; } }
 
-@media screen and (max-width: 1023px) {
-  .hero-imagen-quienes-somos {
-    height: 40vh; } }
-
-@media screen and (max-width: 1023px) {
-  .hero-imagen-contacto {
-    height: 40vh; } }
-
-@media screen and (max-width: 1023px) {
-  .hero-imagen-planes {
-    height: 40vh; } }
-
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .hero-imagen-cartilla {
     height: 40vh; } }
 
@@ -8569,13 +8576,6 @@ h2, .h2 {
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   margin-bottom: 88px; }
-
-.carousel-inner {
-  position: center center;
-  size: cover; }
-
-.carousel-indicators {
-  margin-bottom: 80px; }
 
 .img-hero {
   height: 80vh; }
@@ -8623,30 +8623,36 @@ h2, .h2 {
   .tu-cuenta-online__titulo {
     color: #6C1B89;
     font-size: xx-large;
-    font-weight: bolder;
-    background: none; }
+    font-weight: bolder; }
   .tu-cuenta-online__gestion-tramites {
     font-size: large; }
 
 /* Apartado DOC.24 */
-.doc-24 {
-  background-color: #6C1B89; }
-  .doc-24__titulo {
-    color: #007670;
-    font-size: xx-large;
-    font-weight: bolder;
-    background: none; }
-  .doc-24__atencion-medica {
-    font-size: large; }
-  .doc-24__te-ofrecemos {
-    font-weight: bolder; }
+.doc-24__titulo {
+  color: #007670;
+  font-size: xx-large;
+  font-weight: bolder; }
 
-/* Media querie Carrousel */
+.doc-24__atencion-medica {
+  font-size: large; }
+
+.doc-24__te-ofrecemos {
+  font-weight: bolder; }
+
+/* Media queries Carrousel */
 @media screen and (max-width: 767px) {
   .p-hero {
     display: none; } }
 
-/* Media querie de Numeros de teléfono importantes */
+@media screen and (max-width: 1023px) {
+  .img-hero {
+    height: 40vh; } }
+
+@media screen and (max-width: 767px) {
+  .img-hero {
+    height: 35vh; } }
+
+/* Media queries de Numeros de teléfono importantes */
 @media screen and (max-width: 767px) {
   .numeros-inicio__card {
     margin-top: 0px;
@@ -8671,40 +8677,25 @@ h2, .h2 {
     color: #1c1c1c;
     font-weight: lighter; } }
 
-@media screen and (max-width: 767px) {
-  .img-hero {
-    height: 40vh; } }
-
-@media screen and (max-width: 767px) {
-  .carousel-indicators {
-    margin-bottom: 5px; } }
-
-@media screen and (max-width: 1023px) {
-  .img-hero {
-    height: 40vh; } }
-
+/* Media Card Planes */
 @media screen and (max-width: 767px) {
   .planes {
     margin-left: 24px; } }
 
-@media screen and (max-width: 1023px) {
-  .img-hero {
-    height: 40vh; } }
-
 /* Estilo Quiénes somos */
 .lo-que-nos-mueve__h3 {
-  color: #007670;
-  font-weight: bolder; }
+  color: #007670; }
+
+.lo-que-nos-mueve__proposito {
+  font-style: italic;
+  font-size: x-large; }
 
 .lo-que-nos-mueve__h4 {
   color: #6C1B89;
   background-color: #00767014;
   padding: 6px; }
 
-.lo-que-nos-mueve__proposito {
-  font-style: italic;
-  font-size: x-large; }
-
+/* Media queries */
 @media screen and (max-width: 1023px) {
   .lo-que-nos-mueve__proposito {
     font-size: x-large;
@@ -8712,20 +8703,11 @@ h2, .h2 {
 
 @media screen and (max-width: 767px) {
   .lo-que-nos-mueve__proposito {
-    font-size: medium;
-    padding-top: 0px;
-    padding-bottom: 0px; } }
+    font-size: medium; } }
 
-@media screen and (max-width: 1023px) {
-  .lo-que-nos-mueve {
-    padding-top: 2px; } }
-
-@media screen and (max-width: 767px) {
-  .lo-que-nos-mueve {
-    padding-top: 2px; } }
-
-/* Estilo de la sección Información útil */
+/* Sección Información útil */
 .info-util__titulo {
+  font-size: x-large;
   color: #007670;
   font-weight: bolder; }
 
@@ -8735,7 +8717,8 @@ h2, .h2 {
 .info-util__asistencia {
   background-image: url(../imágenes/fondo-contacto.jpg);
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  font-size: large; }
 
 .info-util__informacion {
   background-color: #fcfcfcc7;
@@ -8744,28 +8727,22 @@ h2, .h2 {
   padding-top: 16px;
   padding-bottom: 16px; }
 
-/* Estilo del formulario de contacto */
+/* Sección formulario de contacto */
 .formulario__titulo {
+  font-size: x-large;
   color: #007670;
   font-weight: bolder; }
 
 .formulario__form-floating {
   color: #6C1B89; }
 
-.boton-contacto {
-  margin-left: 450px; }
-
-/* Estilo h3 */
+/* Estilo h4 de Cartilla */
 .h4-cartilla {
   background-color: #6c1b890f;
   font-size: x-large;
   color: #007670;
   padding: 6px;
   border-radius: 6px; }
-
-@media screen and (max-width: 760) {
-  .form-select {
-    font-size: x-small; } }
 
 /* Estilo menú acordeón de Planes */
 .accordion-button {

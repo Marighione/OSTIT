@@ -1,4 +1,5 @@
 /* Carrousel de imágenes */
+
 .titulo-index {
     color: $bgBody;
     font-style: italic;
@@ -6,8 +7,6 @@
     padding: 6px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-
-
 }
 
 .p-hero {
@@ -16,28 +15,13 @@
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
     margin-bottom: 88px;
-
-}
-
-.carousel-inner {
-
-   
-    position: center center;
-    size: cover;
-
-}
-
-.carousel-indicators {
-    margin-bottom: 80px;
 }
 
 .img-hero {
     height: 80vh;
-
 }
 
 /* Titulo cards de Planes */
-
 
 .card-title {
     color: $verde;
@@ -48,6 +32,7 @@
 }
 
 /* Animación cards de Planes */
+
 .planes:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
     border-radius: 8px;
@@ -55,12 +40,11 @@
 }
 
 /* Numeros teléfonicos importantes */
+
 .numeros-inicio {
     background-image: url(../imágenes/fondo-numeros-utiles.jpg);
     background-size: cover;
     background-position: center center;
-    
-
 
 
     &__card {
@@ -70,7 +54,6 @@
         padding-bottom: 24px;
         margin-left: 1px;
         border-radius: 6px;
-
 
     }
 
@@ -82,7 +65,7 @@
     &__titulo {
         font-size: larger;
         font-weight: bolder;
-        color: #6C1B89;
+        color: $violeta;
     }
 
     &__subtitulo {
@@ -93,6 +76,7 @@
 
 
 /* Apartado Tu cuenta online */
+
 .tu-cuenta-online {
     background-color: #cbebe2b4;
     background-size: contain;
@@ -101,7 +85,6 @@
         color: $violeta;
         font-size: xx-large;
         font-weight: bolder;
-        background: none;
     }
 
     &__gestion-tramites {
@@ -111,13 +94,11 @@
 
 /* Apartado DOC.24 */
 .doc-24 {
-    background-color: #6C1B89;
 
     &__titulo {
         color: $verde;
         font-size: xx-large;
         font-weight: bolder;
-        background: none;
     }
 
     &__atencion-medica {
@@ -129,8 +110,10 @@
     }
 }
 
-/* Media querie Carrousel */
 
+
+
+/* Media queries Carrousel */
 
 @media screen and (max-width: 767px) {
     .p-hero {
@@ -138,101 +121,64 @@
     }
 }
 
-
-
-
-
-
-
-
-/* Media querie de Numeros de teléfono importantes */
-
-@media screen and (max-width: 767px) {
-
-    .numeros-inicio {
-
-       
-}
-}
-
-    @media screen and (max-width: 767px) {
-        .numeros-inicio__card {
-            margin-top: 0px;
-            padding-top: 16px;
-            padding-bottom: 5px;
-        }
-    }
-
-
-    @media screen and (max-width: 1023px) {
-
-        .numeros-inicio__index {
-            font-size: x-large;
-            color: $violeta;
-            font-weight: bolder;
-        }
-
-        .numeros-inicio__titulo {
-            color: $primario;
-            font-weight: lighter;
-        }
-
-    }
-
-    @media screen and (max-width: 767px) {
-
-        .numeros-inicio__index {
-            font-size: large;
-            color: $violeta;
-            font-weight: bolder;
-        }
-
-        .numeros-inicio__titulo {
-            color: $primario;
-            font-weight: lighter;
-        }
-
-    }
-
-    @media screen and (max-width: 767px) {
-        .img-hero {
-            height: 40vh;
-        }
-
-    }
-
-
-
-
-
-
-
-    @media screen and (max-width: 767px) {
-        .carousel-indicators {
-            margin-bottom: 5px;
-        }
-
-    }
-
-    @media screen and (max-width: 1023px) {
-        .img-hero {
-            height: 40vh;
-        }
-    }
-
-    @media screen and (max-width: 767px) {
-    .planes { 
-        margin-left: 24px;
-    }
-}
-
-
 @media screen and (max-width: 1023px) {
     .img-hero {
         height: 40vh;
     }
 }
 
+@media screen and (max-width: 767px) {
+    .img-hero {
+        height: 35vh;
+    }
+
+}
 
 
 
+/* Media queries de Numeros de teléfono importantes */
+
+@media screen and (max-width: 767px) {
+    .numeros-inicio__card {
+        margin-top: 0px;
+        padding-top: 16px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .numeros-inicio__index {
+        font-size: x-large;
+        color: $violeta;
+        font-weight: bolder;
+    }
+
+    .numeros-inicio__titulo {
+        color: $primario;
+        font-weight: lighter;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .numeros-inicio__index {
+        font-size: large;
+        color: $violeta;
+        font-weight: bolder;
+    }
+
+    .numeros-inicio__titulo {
+        color: $primario;
+        font-weight: lighter;
+    }
+
+}
+
+
+/* Media Card Planes */
+
+@media screen and (max-width: 767px) {
+    .planes {
+        margin-left: 24px;
+    }
+}
